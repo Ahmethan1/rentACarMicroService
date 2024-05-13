@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13260385-3d9c-4f48-b50f-11ee9daaf420" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/turkcell/rentacar/common/events/InventoryCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/turkcell/rentacar/common/events/InventoryCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configServer/src/main/java/com/turkcell/rentacar/configServer/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/java/com/turkcell/rentacar/configServer/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/src/main/java/com/turkcell/rentacar/discoveryServer/DiscoveryServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discoveryServer/discoveryServer/src/test/java/com/turkcell/rentacar/discoveryServer/DiscoveryServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/InventoryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/api/controller/BrandsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/abstracts/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/concretes/BrandManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/request/brands/CreateBrandRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/request/brands/UpdateBrandRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/responses/brands/CreatedBrandResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/responses/brands/GetAllBrandsListItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/responses/brands/GetBrandResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/dto/responses/brands/UpdatedBrandResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/messages/BrandMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/rules/BrandBusinessRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/core/business/abstracts/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/core/business/concretes/MessageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/core/configuration/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/dataAccess/abstracts/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/entity/concretes/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/inventoryService/src/test/java/com/turkcell/rentacar/inventoryService/InventoryServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/api/controller/BrandsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/api/controller/BrandsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/concretes/BrandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/business/concretes/BrandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/kafka/producers/InventoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryService/src/main/java/com/turkcell/rentacar/inventoryService/kafka/producers/InventoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/api/controller/InventoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/api/controller/InventoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/abstracts/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/abstracts/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/concretes/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/concretes/InventoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/dtos/FilterInventoryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/dtos/FilterInventoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/dtos/FilterInventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/business/dtos/FilterInventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/handlers/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/handlers/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/BusinessProblemDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/BusinessProblemDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/ProblemDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/ProblemDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/ValidationProblemDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/problemDetails/ValidationProblemDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/types/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/exception/types/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/mapping/ModelMapperManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/mapping/ModelMapperManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/mapping/ModelMapperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/core/utilities/utilities/mapping/ModelMapperService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/dataAccess/abstracts/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/dataAccess/abstracts/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/entities/concretes/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/entities/concretes/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/kafka/consumers/InventoryConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchService/src/main/java/com/turkcell/rentacar/searchService/kafka/consumers/InventoryConsumer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ahmethan1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ahmethan1/rentACarMicroService.git&quot;,
+    &quot;accountId&quot;: &quot;d0d8cbac-ba48-4e3f-a6fc-4a6b8f8df2fc&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fYxbDbkplLH0eI5Iab9YnztJoZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.DiscoveryServerApplication.executor": "Run",
+    "Application.GatewayServiceApplication.executor": "Run",
+    "Application.InventoryServiceApplication.executor": "Run",
+    "Application.SearchServiceApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ahmethan/Desktop/rentacarMS/RentACarMS",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmethan\Desktop\rentacarMS\RentACarMS\searchService\src\main\java\com\turkcell\rentacar\searchService\core\utilities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SearchServiceApplication">
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.turkcell.rentacar.configServer.ConfigServerApplication" />
+      <module name="configServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.turkcell.rentacar.configServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.turkcell.rentacar.discoveryServer.DiscoveryServerApplication" />
+      <module name="discoveryServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.turkcell.rentacar.discoveryServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.turkcell.rentacar.gatewayService.GatewayServiceApplication" />
+      <module name="gatewayService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.turkcell.rentacar.gatewayService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.turkcell.rentacar.inventoryService.InventoryServiceApplication" />
+      <module name="inventoryService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.turkcell.rentacar.inventoryService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.turkcell.rentacar.searchService.SearchServiceApplication" />
+      <module name="searchService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.turkcell.rentacar.searchService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SearchServiceApplication" />
+        <item itemvalue="Application.InventoryServiceApplication" />
+        <item itemvalue="Application.GatewayServiceApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.DiscoveryServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13260385-3d9c-4f48-b50f-11ee9daaf420" name="Changes" comment="" />
+      <created>1713991881654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713991881654</updated>
+    </task>
+    <servers />
+  </component>
+</project>

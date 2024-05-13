@@ -1,4 +1,4 @@
-package com.turkcell.rentacar.inventoryService.core.utilities.exception.problemDetails;
+package com.turkcell.rentacar.searchService.core.utilities.utilities.exception.problemDetails;
 
 import lombok.Data;
 

@@ -1,8 +1,9 @@
-package com.turkcell.rentacar.inventoryService.core.utilities.exception.handlers;
+package com.turkcell.rentacar.searchService.core.utilities.utilities.exception.handlers;
 
-import com.turkcell.rentacar.inventoryService.core.utilities.exception.problemDetails.BusinessProblemDetails;
-import com.turkcell.rentacar.inventoryService.core.utilities.exception.problemDetails.ValidationProblemDetails;
-import com.turkcell.rentacar.inventoryService.core.utilities.exception.types.BusinessException;
+
+import com.turkcell.rentacar.searchService.core.utilities.utilities.exception.problemDetails.BusinessProblemDetails;
+import com.turkcell.rentacar.searchService.core.utilities.utilities.exception.problemDetails.ValidationProblemDetails;
+import com.turkcell.rentacar.searchService.core.utilities.utilities.exception.types.BusinessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

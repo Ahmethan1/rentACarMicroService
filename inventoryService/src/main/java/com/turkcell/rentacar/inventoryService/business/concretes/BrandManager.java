@@ -1,5 +1,6 @@
 package com.turkcell.rentacar.inventoryService.business.concretes;
 
+import com.turkcell.rentacar.common.events.InventoryCreatedEvent;
 import com.turkcell.rentacar.inventoryService.business.abstracts.BrandService;
 import com.turkcell.rentacar.inventoryService.business.dto.request.brands.CreateBrandRequest;
 import com.turkcell.rentacar.inventoryService.business.dto.request.brands.UpdateBrandRequest;
@@ -11,6 +12,7 @@ import com.turkcell.rentacar.inventoryService.business.rules.BrandBusinessRules;
 import com.turkcell.rentacar.inventoryService.core.utilities.mapping.ModelMapperService;
 import com.turkcell.rentacar.inventoryService.dataAccess.abstracts.BrandRepository;
 import com.turkcell.rentacar.inventoryService.entity.concretes.Brand;
+import com.turkcell.rentacar.inventoryService.kafka.producers.InventoryProducer;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +26,7 @@ public class BrandManager implements BrandService {
     private BrandRepository brandRepository;
     private ModelMapperService modelMapperService;
     private BrandBusinessRules brandBusinessRules;
+    private InventoryProducer inventoryProducer;
 
     @Override
     public CreatedBrandResponse add(CreateBrandRequest createBrandRequest) {
@@ -33,7 +36,10 @@ public class BrandManager implements BrandService {
         brand.setCreatedDate(LocalDateTime.now());
 
         Brand createdBrand = brandRepository.save(brand);
-        return modelMapperService.forResponse().map(createdBrand, CreatedBrandResponse.class);
+        CreatedBrandResponse createdBrandResponse = modelMapperService.forResponse().map(createdBrand, CreatedBrandResponse.class);
+        InventoryCreatedEvent inventoryCreatedEvent = new InventoryCreatedEvent(createdBrandResponse.getId(),createdBrandResponse.getName());
+        inventoryProducer.sendMessage(inventoryCreatedEvent);
+        return createdBrandResponse ;
 
     }
 

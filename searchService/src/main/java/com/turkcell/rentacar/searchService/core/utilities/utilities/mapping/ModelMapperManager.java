@@ -1,4 +1,4 @@
-package com.turkcell.rentacar.inventoryService.core.utilities.mapping;
+package com.turkcell.rentacar.searchService.core.utilities.utilities.mapping;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
